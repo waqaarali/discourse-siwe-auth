@@ -12,7 +12,7 @@ register_asset 'stylesheets/discourse-siwe.scss'
   ../lib/omniauth/strategies/siwe.rb
 ].each { |path| load File.expand_path(path, __FILE__) }
 
-gem 'pkg-config', '1.4.7', require: false
+gem 'pkg-config', '1.5.1', require: false
 gem 'mkmfmf', '0.4', require: false
 gem 'keccak', '1.3.0', require: false
 gem 'zip', '2.0.2', require: false
